@@ -1,10 +1,27 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'Angular14-Demo';
+export class AppComponent{
+  title = 'Home';
+
+
+  constructor(public translate: TranslateService ){
+    translate.addLangs(['en','vi']);
+    translate.setDefaultLang('en');
+
+  }
+
+   // Access formcontrols getter
+
+  switchLanguage(lang: string){
+    this.translate.use(lang);
+  }
+
 }
+

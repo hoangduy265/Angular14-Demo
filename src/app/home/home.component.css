@@ -1,0 +1,22 @@
+.example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+  }
+  .gray_0{
+    filter: grayscale(0%);
+  }
+  .gray_100{
+    filter: grayscale(90%);
+  }
+  .language_bar{
+    margin-top: -10px;
+    padding-left: 20px;
+    
+  }
+  .language_bar a{
+    font-size: 20px !important;
+  }
+  .language_bar img{
+    width: 32px;
+    margin-right: 10px;
+  }

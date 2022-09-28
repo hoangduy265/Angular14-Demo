@@ -1,0 +1,199 @@
+<!--====== HEADER PART START ======-->
+<header class="header-area">
+    <div class="navgition navgition-transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <a class="navbar-brand" href="#">
+                            <img src="assets/images/Hoang-Logo.png" alt="Logo" width="150px">
+                        </a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarOne"
+                            aria-controls="navbarOne" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                            <span class="toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarOne">
+                            <ul class="navbar-nav m-auto">
+                                <li class="nav-item active">
+                                    <a class="page-scroll" href="#home"><span> {{'Home'|translate}} </span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#service"><span> {{'Abouts'|translate}} </span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#pricing">{{'Projects'|translate}}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#pricing">{{'Sharing'|translate}}</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="page-scroll" href="#contact">{{'Contact'|translate}}</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="navbar-social d-none d-sm-flex align-items-center">
+                            <span>{{'Follow_Us'|translate}}</span>
+                            <ul>
+                                <li><a href="https://www.facebook.com/ken.hoang265/" target="_blank"><i
+                                            class="lni-facebook-filled"></i></a></li>
+                                <li><a href="https://www.instagram.com/hoangduy265/" target="_blank"><i
+                                            class="lni-instagram-original"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/duy-hoang-01730798/" target="_blank"><i
+                                            class="lni-linkedin-original"></i></a></li>
+
+                                <!-- <li>
+                                    <span class="form-inline">
+                                        <select class="form-control" #selectedLang
+                                            (change)="switchLanguage(selectedLang.value)">
+                                            <option *ngFor="let language of translate.getLangs()" [value]="language"
+                                                [selected]="language === translate.currentLang">
+                                                {{language}}
+                                            </option>
+                                        </select>
+                                    </span>
+                                </li> -->
+                            </ul>
+                        </div>
+
+                        <div class="navbar-social d-none d-sm-flex align-items-center language_bar">
+                            <ul>
+                                <li><a href="#"><img src="../../assets/images/en-flag.png" id="en-flag"
+                                            (click)="check_en()">EN</a></li>
+                                <li><a href="#"><img src="../../assets/images/vi-flag.png" id="vi-flag"
+                                            (click)="check_vi()">VI</a></li>
+                            </ul>
+                        </div>
+                    </nav> <!-- navbar -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- navgition -->
+</header>
+
+<hr class="line1">
+
+<section class="services-area">
+    <div class="container">
+        <div class="row profile_header">
+            
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div class="avatar"></div>
+            </div>
+            
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 p_header">
+                <h1>HOÀNG QUỐC DUY</h1>
+                <h2>IT Manager - PM - IT Specialist</h2>
+            </div>
+            
+            
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div></div>
+            </div>
+            
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                Hello
+
+            </div>
+            
+            
+            abc cdf
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- <style>
+.mat-dialog-container{
+    background-color: rgb(7, 94, 207) !important;
+}
+.tbl_info{
+    background-color: rgb(7, 94, 207) !important;
+    padding: 20px;
+    margin: -20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "https://fonts.googleapis.com/css?family=Tangerine";
+}
+.tbl_info table{
+    border: none;
+}
+.tbl_info table tr{
+    border-bottom: 1px solid rgba(131, 2, 2, 0) !important;
+    margin: 5px 0px;
+}
+.tbl_info table tr th{
+    width: 250px;
+    padding: 5px 30px;
+    border-bottom: 1px solid rgba(131, 2, 2, 0) !important;
+}
+.tbl_info table tr td{
+    width: 400px;
+    padding: 5px 30px;
+    border-bottom: 1px dotted rgba(131, 2, 2, 0) !important;
+}
+</style>
+<div class="tbl_info">
+    <table>
+        <tr>
+            <th>{{'first_name'|translate}} Họ:</th>
+            <th>Hoàng Quốc</th>
+        </tr>
+        <tr>
+            <th>Tên:</th>
+            <td>Duy</td>
+        </tr>
+        <tr>
+            <th>Năm Sinh:</th>
+            <td>26/05/****</td>
+        </tr>
+        <tr>
+            <th>Số Điện loại:</th>
+            <td>**** *** ***</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>me@hoangduy.info</td>
+        </tr>
+        <tr>
+            <th>Zalo:</th>
+            <td>@hoangken265</td>
+        </tr>
+        <tr>
+            <th>Telegram:</th>
+            <td>@HoangDuy_ITM</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>me@hoangduy.info</td>
+        </tr>
+        <tr>
+            <th>Quốc tịch:</th>
+            <td>Việt Nam</td>
+        </tr>
+        <tr>
+            <th>Tình trạng hôm nhân:</th>
+            <td>Có gia đình</td>
+        </tr>
+        <tr>
+            <th>Thành phố:</th>
+            <td>Hồ Chí Minh</td>
+        </tr>
+        <tr>
+            <th>Quận:</th>
+            <td>Quận 12</td>
+        </tr>
+        <tr>
+            <th>Địa chỉ:</th>
+            <td>**** **** **** ***</td>
+        </tr>
+    </table>
+</div> -->

@@ -2,6 +2,8 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import {MatSelectModule} from '@angular/material/select';
+import {MatDialogModule} from '@angular/material/dialog';
+import {MatTableModule} from '@angular/material/table';
 
 
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -10,22 +12,24 @@ import { HttpClient, HttpClientModule, HttpXsrfTokenExtractor } from '@angular/c
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './pages/about/about.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { PersonalProfileComponent } from './pages/personal-profile/personal-profile.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent, PersonalProfileComponent
     
   ],
   imports: [
-    BrowserModule, MatSelectModule, FormsModule, ReactiveFormsModule,
+    BrowserModule, MatSelectModule, FormsModule, ReactiveFormsModule, MatDialogModule, MatTableModule, 
     AppRoutingModule, 
     HttpClientModule,
     TranslateModule.forRoot({
@@ -38,7 +42,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  exports:[TranslateModule]
 })
 export class AppModule { }
 

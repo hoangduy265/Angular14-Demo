@@ -1,0 +1,73 @@
+.example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+}
+
+.gray_0 {
+    filter: grayscale(0%);
+}
+
+.gray_100 {
+    filter: grayscale(90%);
+}
+
+.language_bar {
+    margin-top: -10px;
+    padding-left: 20px;
+
+}
+
+.language_bar a {
+    font-size: 20px !important;
+}
+
+.language_bar img {
+    width: 32px;
+    margin-right: 10px;
+}
+.navgition.navgition-transparent {
+    background-color: #eae7d6 !important;
+}
+.bottom{
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #eae7d6;
+}
+hr.line1{
+    border: 1px solid red;
+    width: 100%;
+    position: fixed;
+    top: 85px;
+    z-index: 1000;
+}
+.profile_header{
+    margin-top: -20px;
+    height: 300px;
+    background-color: #0c5776
+    ;
+}
+
+.avatar{
+    border-radius: 150px 150px 0 0 ;
+    /* background-color: #f9d678; */
+    border: 10px solid #fff;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    background-image: url(../../../assets/imgs/bill-gate.png);
+}
+.p_header{
+    font-family: 'https://fonts.google.com/css?family=Poppins';
+    padding-top: 100px;
+}
+.p_header h1{
+    color: #fff !important;
+    font-size: 48px;
+}
+.p_header h2{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 15px;
+}

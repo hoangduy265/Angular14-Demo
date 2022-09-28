@@ -4,5 +4,23 @@
     "Projects":"Projects",
     "Contact":"Contact",
     "Sharing":"Sharing",
-    "Follow_Us":"FOLLOW US"
+    "Follow_Us":"FOLLOW US",
+    "Banner_header_title":"Your value comes from what you do!",
+    "Banner_header_description":"Learn, practice, sharing, do things you like to bring value not only to yourself but also to society!",
+    "About_me":"About me",
+    "About_me_description":"I'm an introvert, quiet but willing to share what I know.",
+
+    "persional_profile":"Persional profile",
+    "last_name": "Full name",
+    "first_name": "",
+    "birthday": "Birthday",
+    "nationality":"Nationality",
+    "vietnam" : "Viet Nam",
+    "marital_status":"Marital status",
+    "married" : "Married",
+    "city" : "City",
+    "hochiminh" : "Ho Chi Minh",
+    "ward": "Ward",
+    "ward_12": "Ward 12",
+    "address": "Adress"
 }

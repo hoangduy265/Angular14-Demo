@@ -10,7 +10,7 @@ export class HomeComponent implements OnInit {
 
   constructor(public translate: TranslateService) { 
     translate.addLangs(['en','vi']);
-    translate.setDefaultLang('en');
+    translate.setDefaultLang('vi');
   }
 
   switchLanguage(lang: string){

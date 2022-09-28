@@ -4,5 +4,24 @@
     "Projects":"Các dự án",
     "Contact":"Liên hệ",
     "Sharing":"Chia sẽ",
-    "Follow_Us":"THEO DÕI"
+    "Follow_Us":"THEO DÕI",
+    "Banner_header_title":"Giá trị bản thân được tạo từ những thứ bạn làm!",
+    "Banner_header_description":"Học hỏi, thực hành, chia sẽ, hãy làm những điều bạn thích để mang lại giá trị không chỉ cho bản thân mà còn cho xã hội!",
+    "About_me":"Nói về tôi",
+    "About_me_description":"Tôi là người sống nội tâm, ít nói những sẵn sàng chia sẽ những điều tôi biết được.",
+
+    "persional_profile":"Thông tin cá nhân",
+    "last_name": "Họ",
+    "first_name": "Tên",
+    "birthday": "Năm sinh",
+    "nationality":"Quốc tịch",
+    "vietnam" : "Việt Nam",
+    "marital_status":"Tình trạng hôn nhân",
+    "married" : "Đã kết hôn",
+    "city" : "Thành phố",
+    "mochiminh" : "Hồ Chí Minh",
+    "ward": "Quận",
+    "ward_12": "Quận 12",
+    "address": "Địa chỉ"
+
 }

@@ -30,7 +30,8 @@
               "src/assets/css/LineIcons.css",
               "src/assets/css/magnific-popup.css",
               "src/assets/css/default.css",
-              "src/assets/css/style.css"
+              "src/assets/css/style.css",
+              "src/assets/fontanwesome6.2/css/all.css"
             ],
             "scripts": [   
               "src/assets/js/vendor/modernizr-3.6.0.min.js",
